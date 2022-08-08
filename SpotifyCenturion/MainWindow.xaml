@@ -37,17 +37,24 @@
                 <RadioButton Content="Home"
                              Height="50"
                              Foreground="White"
+                             FontFamily="{StaticResource RobotoRegular}"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"/>
                 <RadioButton Content="Discovery"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             FontFamily="{StaticResource RobotoRegular}"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding DiscoveryViewCommand}"/>
+                
                 <RadioButton Content="Featured"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
+                             FontFamily="{StaticResource RobotoRegular}"
                              Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
             <TextBox Width="250"

@@ -41,3 +41,6 @@ C:\Users\p5\CesarCentProjects\SpotifyCent\SpotifyCenturion\obj\Debug\SpotifyCent
 C:\Users\p5\CesarCentProjects\SpotifyCent\SpotifyCenturion\obj\Debug\SpotifyCenturion.exe
 C:\Users\p5\CesarCentProjects\SpotifyCent\SpotifyCenturion\obj\Debug\SpotifyCenturion.pdb
 C:\Users\p5\CesarCentProjects\SpotifyCent\SpotifyCenturion\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\p5\CesarCentProjects\SpotifyCent\SpotifyCenturion\obj\Debug\MVVM\View\DiscoveryView.g.cs
+C:\Users\p5\CesarCentProjects\SpotifyCent\SpotifyCenturion\obj\Debug\MVVM\View\DiscoveryView.baml
+C:\Users\p5\CesarCentProjects\SpotifyCent\SpotifyCenturion\obj\Debug\Theme\Styles.baml
