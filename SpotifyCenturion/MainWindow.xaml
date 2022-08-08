@@ -4,12 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SpotifyCenturion"
+        xmlns:viewModel="clr-namespace:SpotifyCenturion.MVVM.ViewModel"
         mc:Ignorable="d"
         WindowStyle="None"
         ResizeMode="NoResize"
         Background="Transparent"
         AllowsTransparency="True"
         Title="MainWindow" Height="600" Width="920">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
     <Border Background="#272537"
             CornerRadius="20">
         <Grid>
@@ -55,7 +59,8 @@
                      Style="{StaticResource ModernTextbox}"/>
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
-                            Margin="10"/>
+                            Margin="10"
+                            Content="{Binding CurrentView}"/>
         </Grid>
         
     </Border>
